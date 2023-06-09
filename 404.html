@@ -3,8 +3,7 @@
     <head>
         <script>
             var originalPath = window.location.pathname
-            var hash = window.location.hash
-            var redirectUrl = '/?path=' + encodeURIComponent(originalPath)
+            var redirectUrl = '/?path=' + encodeURIComponent(originalPath + window.location.hash)
             window.location.href = redirectUrl
         </script>
     </head>
