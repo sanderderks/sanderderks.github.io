@@ -1,1 +1,1 @@
-@media (max-width: 768px){.table-auto[data-v-584efea8]{display:block;width:100%}.table-auto th[data-v-584efea8],.table-auto td[data-v-584efea8]{display:block;text-align:left;padding:8px 0}}
+.animate-timer-up{position:relative;animation:animateup 1s infinite}.animate-timer-down{position:relative;animation:animatedown 1s infinite}@keyframes animateup{0%{bottom:-50px;opacity:0}to{bottom:0;opacity:1}}@keyframes animatedown{0%{top:-50px;opacity:0}to{top:0;opacity:1}}
