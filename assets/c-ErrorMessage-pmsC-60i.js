@@ -1,0 +1,1 @@
+import{Dr as e,Kr as t,Or as n,Pr as r,Vi as i}from"./c-button-DbxlWo-7.js";var a={key:0,class:`text-red-600`},o=r({__name:`ErrorMessage`,props:{name:{},error:{}},setup(r){return(o,s)=>r.error?(t(),n(`p`,a,i(r.error),1)):e(``,!0)}});export{o as t};

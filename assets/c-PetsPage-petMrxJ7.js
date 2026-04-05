@@ -1,0 +1,1 @@
+import{Er as e,Kr as t,Nr as n,Pr as r,ai as i}from"./c-button-DbxlWo-7.js";import{t as a}from"./c-Page-BWjjZDom.js";import{t as o}from"./c-Pets-DZgZOXMN.js";var s=r({__name:`PetsPage`,setup(r){return(r,s)=>(t(),e(a,null,{content:i(()=>[n(o)]),_:1}))}});export{s as default};

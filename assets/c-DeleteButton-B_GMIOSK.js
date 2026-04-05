@@ -1,0 +1,1 @@
+import{Er as e,Kr as t,Pr as n}from"./c-button-DbxlWo-7.js";import{a as r}from"./c-Bubble-CE_bAaGj.js";var i=n({__name:`DeleteButton`,props:{isLoading:{type:Boolean}},emits:[`click`],setup(n){return(i,a)=>(t(),e(r,{icon:`pi pi-trash`,"icon-only":``,variant:`danger`,loading:n.isLoading,onClick:a[0]||=e=>i.$emit(`click`)},null,8,[`loading`]))}});export{i as t};
