@@ -1,0 +1,1 @@
+import{Dr as e,Fr as t,Pr as n,oi as r,qr as i}from"./c-ripple-yTwaw3Mu.js";import{t as a}from"./c-Page-Cm2OuCj6.js";import{t as o}from"./c-Pets-C0h6sGuu.js";var s=t({__name:`PetsPage`,setup(t){return(t,s)=>(i(),e(a,null,{content:r(()=>[n(o)]),_:1}))}});export{s as default};
