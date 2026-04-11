@@ -1,0 +1,1 @@
+import{Dr as e,Fr as t,qr as n}from"./c-ripple-DPK5W-pB.js";import{a as r}from"./c-Bubble-Dq9WBHJZ.js";var i=t({__name:`CreateButton`,props:{isLoading:{type:Boolean}},emits:[`click`],setup(t){return(i,a)=>(n(),e(r,{icon:`pi pi-plus`,"icon-only":``,variant:`green`,loading:t.isLoading,onClick:a[0]||=e=>i.$emit(`click`)},null,8,[`loading`]))}});export{i as t};
