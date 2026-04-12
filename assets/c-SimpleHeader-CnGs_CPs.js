@@ -1,1 +1,0 @@
-import{Er as e,Fr as t,Hi as n,Or as r,kr as i,qr as a}from"./c-ripple-DPK5W-pB.js";var o={class:`mt-3 mb-5 flex flex-col gap-3`},s={class:`text-xl font-bold`},c={key:0},l=t({__name:`SimpleHeader`,props:{title:{},description:{}},setup(t){return(l,u)=>(a(),i(`div`,o,[e(`h3`,s,n(t.title),1),t.description?(a(),i(`p`,c,n(t.description),1)):r(``,!0)]))}});export{l as t};

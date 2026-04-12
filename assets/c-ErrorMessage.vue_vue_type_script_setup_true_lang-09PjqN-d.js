@@ -1,1 +1,0 @@
-import{d as r,b as t,c as o,t as s,B as a}from"../bundle.js";const n={key:0,class:"text-red-600"},_=r({__name:"ErrorMessage",props:{name:{},error:{}},setup(e){return(c,m)=>e.error?(t(),o("p",n,s(e.error),1)):a("",!0)}});export{_};

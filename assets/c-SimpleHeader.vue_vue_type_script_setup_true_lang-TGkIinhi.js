@@ -1,1 +1,0 @@
-import{d as c,b as t,c as o,e as a,t as s,B as n}from"../bundle.js";const i={class:"mt-3 mb-5 flex flex-col gap-3"},r={class:"text-xl font-bold"},l={key:0},_=c({__name:"SimpleHeader",props:{title:{},description:{}},setup(e){return(d,m)=>(t(),o("div",i,[a("h3",r,s(e.title),1),e.description?(t(),o("p",l,s(e.description),1)):n("",!0)]))}});export{_};
