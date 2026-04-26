@@ -1,0 +1,1 @@
+import{Fr as e,Hi as t,Or as n,kr as r,qr as i}from"./c-ripple-BJEt1gd9.js";var a={key:0,class:`text-red-600`},o=e({__name:`ErrorMessage`,props:{name:{},error:{}},setup(e){return(o,s)=>e.error?(i(),r(`p`,a,t(e.error),1)):n(``,!0)}});export{o as t};
