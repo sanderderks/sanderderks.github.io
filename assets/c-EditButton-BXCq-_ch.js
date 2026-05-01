@@ -1,0 +1,1 @@
+import{Dr as e,Fr as t,qr as n}from"./c-ripple-DJgZqOyv.js";import{a as r}from"./c-Bubble-BQI9J1Zq.js";var i=t({__name:`EditButton`,props:{isLoading:{type:Boolean}},emits:[`click`],setup(t){return(i,a)=>(n(),e(r,{icon:`pi pi-cog`,"icon-only":``,variant:`neutral`,loading:t.isLoading,onClick:a[0]||=e=>i.$emit(`click`,e)},null,8,[`loading`]))}});export{i as t};
