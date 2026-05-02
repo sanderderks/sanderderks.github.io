@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<html
-    lang="en"
-    class="darkMode"
->
+<!doctype html>
+<html lang="en">
     <head>
+        <script>
+            const primeVueThemeStorageKey = 'primevue-theme'
+            const primeVueTheme = localStorage.getItem(primeVueThemeStorageKey)
+            document.documentElement.classList.toggle('darkMode', primeVueTheme !== 'light')
+        </script>
         <title>Sander Derks</title>
         <meta charset="UTF-8" />
         <meta
@@ -74,9 +76,9 @@
         ></script>
       <script type="module" crossorigin src="./bundle.js"></script>
       <link rel="modulepreload" crossorigin href="./assets/c-chunk-BZBS-Z4_.js">
-      <link rel="modulepreload" crossorigin href="./assets/c-ripple-DJgZqOyv.js">
-      <link rel="modulepreload" crossorigin href="./assets/c-baseeditableholder-B0KbYGfh.js">
-      <link rel="modulepreload" crossorigin href="./assets/c-portal-DRjtlJio.js">
+      <link rel="modulepreload" crossorigin href="./assets/c-ripple-Drmeh0Td.js">
+      <link rel="modulepreload" crossorigin href="./assets/c-baseeditableholder-B_RCLBd2.js">
+      <link rel="modulepreload" crossorigin href="./assets/c-portal-D4nvo1QL.js">
       <link rel="stylesheet" crossorigin href="./bundle6.css">
     </head>
     <body>
