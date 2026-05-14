@@ -1,0 +1,1 @@
+import{Cr as e,Pr as t,hr as n}from"../bundle.js";import{c as r}from"./c-Bubble-D2WU2646.js";var i=e({__name:`EditButton`,props:{isLoading:{type:Boolean}},emits:[`click`],setup(e){return(i,a)=>(t(),n(r,{icon:`pi pi-cog`,"icon-only":``,variant:`neutral`,loading:e.isLoading,onClick:a[0]||=e=>i.$emit(`click`,e)},null,8,[`loading`]))}});export{i as t};
