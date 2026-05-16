@@ -1,0 +1,1 @@
+import{_ as t}from"./c-index-vM0EO5P_.js";import{d as s,b as a,g as c}from"../bundle.js";const p=s({__name:"EditButton",props:{isLoading:{type:Boolean}},emits:["click"],setup(i){return(n,o)=>(a(),c(t,{icon:"pi pi-cog","icon-only":"",severity:"secondary",loading:i.isLoading,onClick:o[0]||(o[0]=e=>n.$emit("click",e))},null,8,["loading"]))}});export{p as _};

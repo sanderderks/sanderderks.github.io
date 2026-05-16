@@ -1,1 +1,0 @@
-import{Ct as e,pr as t,qn as n}from"../bundle.js";var r=()=>{let{personalSettings:r}=n(e()),i=t(()=>r.value?.primeVueTheme??`dark`);return{primeVueTheme:i,isDarkTheme:t(()=>i.value===`dark`),isLightTheme:t(()=>i.value===`light`)}};export{r as t};
