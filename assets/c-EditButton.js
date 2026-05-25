@@ -1,0 +1,1 @@
+import{Ir as e,Tr as t,b as n,vr as r}from"../bundle.js";var i=t({__name:`EditButton`,props:{isLoading:{type:Boolean}},emits:[`click`],setup(t){return(i,a)=>(e(),r(n,{icon:`pi pi-cog`,"icon-only":``,severity:`secondary`,loading:t.isLoading,onClick:a[0]||=e=>i.$emit(`click`,e)},null,8,[`loading`]))}});export{i as t};
