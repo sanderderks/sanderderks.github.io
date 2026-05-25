@@ -1,0 +1,1 @@
+import{d as s,b as t,g as a,_ as c}from"../bundle.js";const r=s({__name:"EditButton",props:{isLoading:{type:Boolean}},emits:["click"],setup(n){return(i,o)=>(t(),a(c,{icon:"pi pi-cog","icon-only":"",severity:"secondary",loading:n.isLoading,onClick:o[0]||(o[0]=e=>i.$emit("click",e))},null,8,["loading"]))}});export{r as _};
