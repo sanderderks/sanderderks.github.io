@@ -1,4 +1,4 @@
-import{Br as e,D as t,Lr as n,O as r,br as i,jr as a}from"../bundle.js";var o={name:`ButtonGroup`,extends:{name:`BaseButtonGroup`,extends:t,style:r.extend({name:`buttongroup`,style:`
+import{D as e,Mr as t,O as n,Rr as r,Vr as i,xr as a}from"../bundle.js";var o={name:`ButtonGroup`,extends:{name:`BaseButtonGroup`,extends:e,style:n.extend({name:`buttongroup`,style:`
     .p-buttongroup {
         display: inline-flex;
     }
@@ -30,4 +30,4 @@ import{Br as e,D as t,Lr as n,O as r,br as i,jr as a}from"../bundle.js";var o={n
         position: relative;
         z-index: 1;
     }
-`,classes:{root:`p-buttongroup p-component`}}),provide:function(){return{$pcButtonGroup:this,$parentInstance:this}}},inheritAttrs:!1};function s(t,r,o,s,c,l){return n(),i(`span`,a({class:t.cx(`root`),role:`group`},t.ptmi(`root`)),[e(t.$slots,`default`)],16)}o.render=s;export{o as t};
+`,classes:{root:`p-buttongroup p-component`}}),provide:function(){return{$pcButtonGroup:this,$parentInstance:this}}},inheritAttrs:!1};function s(e,n,o,s,c,l){return r(),a(`span`,t({class:e.cx(`root`),role:`group`},e.ptmi(`root`)),[i(e.$slots,`default`)],16)}o.render=s;export{o as t};
