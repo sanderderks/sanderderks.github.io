@@ -1,4 +1,4 @@
-import{D as e,Mr as t,O as n,Rr as r,Vr as i,xr as a}from"../bundle.js";var o={name:`ButtonGroup`,extends:{name:`BaseButtonGroup`,extends:e,style:n.extend({name:`buttongroup`,style:`
+import{D as e,Fr as t,O as n,Vr as r,Wr as i,wr as a}from"../bundle.js";var o={name:`ButtonGroup`,extends:{name:`BaseButtonGroup`,extends:e,style:n.extend({name:`buttongroup`,style:`
     .p-buttongroup {
         display: inline-flex;
     }
