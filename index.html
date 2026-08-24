@@ -5,6 +5,7 @@
             const primeVueThemeStorageKey = 'primevue-theme'
             const primeVueTheme = localStorage.getItem(primeVueThemeStorageKey)
             document.documentElement.classList.toggle('darkMode', primeVueTheme !== 'light')
+            document.documentElement.classList.toggle('dark', primeVueTheme !== 'light')
         </script>
         <title>Sander Derks</title>
         <meta charset="UTF-8" />
