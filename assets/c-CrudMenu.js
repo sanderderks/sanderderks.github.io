@@ -1,4 +1,4 @@
-import{A as e,Ar as t,Cr as n,D as r,Dr as i,Fr as a,Gr as o,Ii as s,Kr as c,O as l,Or as u,R as d,S as f,Sr as p,St as m,Tt as h,U as g,Ur as _,Vr as v,Wr as y,Zr as ee,a as b,b as x,d as S,dt as C,ei as w,ht as T,i as E,ji as D,pr as te,qr as O,rt as ne,ti as k,ui as A,ut as j,wr as M,wt as N,xr as P,yr as F}from"../bundle.js";import{i as I}from"./c-card.js";import{t as L}from"./c-EditButton.js";import{n as R,t as z}from"./c-core.js";var B=l.extend({name:`menu`,style:`
+import{A as e,Ar as t,Cr as n,D as r,Dr as i,Fr as a,Gr as o,Ii as s,Kr as c,O as l,Or as u,R as d,S as f,Sr as p,St as m,Tt as h,U as g,Ur as _,Vr as v,Wr as y,Zr as ee,a as b,b as x,d as S,dt as C,ei as w,ht as T,i as E,ji as D,pr as te,qr as O,rt as ne,ti as k,ui as A,ut as j,wr as M,wt as N,xr as P,yr as F}from"../bundle.js";import{r as I}from"./c-SelectField.js";import{t as L}from"./c-EditButton.js";import{n as R,t as z}from"./c-core.js";var B=l.extend({name:`menu`,style:`
     .p-menu {
         background: dt('menu.background');
         color: dt('menu.color');
