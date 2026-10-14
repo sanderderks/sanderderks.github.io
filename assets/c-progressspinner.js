@@ -1,4 +1,4 @@
-import{D as e,Fr as t,O as n,Vr as r,wr as i,xr as a}from"../bundle.js";var o=n.extend({name:`progressspinner`,style:`
+import{Mr as e,Rr as t,S as n,vr as r,x as i,xr as a}from"../bundle.js";var o=n.extend({name:`progressspinner`,style:`
     .p-progressspinner {
         position: relative;
         margin: 0 auto;
@@ -71,4 +71,4 @@ import{D as e,Fr as t,O as n,Vr as r,wr as i,xr as a}from"../bundle.js";var o=n.
             stroke: dt('progressspinner.color.four');
         }
     }
-`,classes:{root:`p-progressspinner`,spin:`p-progressspinner-spin`,circle:`p-progressspinner-circle`}}),s={name:`ProgressSpinner`,extends:{name:`BaseProgressSpinner`,extends:e,props:{strokeWidth:{type:String,default:`2`},fill:{type:String,default:`none`},animationDuration:{type:String,default:`2s`}},style:o,provide:function(){return{$pcProgressSpinner:this,$parentInstance:this}}},inheritAttrs:!1,computed:{svgStyle:function(){return{"animation-duration":this.animationDuration}}}},c=[`fill`,`stroke-width`];function l(e,n,o,s,l,u){return r(),i(`div`,t({class:e.cx(`root`),role:`progressbar`},e.ptmi(`root`)),[(r(),i(`svg`,t({class:e.cx(`spin`),viewBox:`25 25 50 50`,style:u.svgStyle},e.ptm(`spin`)),[a(`circle`,t({class:e.cx(`circle`),cx:`50`,cy:`50`,r:`20`,fill:e.fill,"stroke-width":e.strokeWidth,strokeMiterlimit:`10`},e.ptm(`circle`)),null,16,c)],16))],16)}s.render=l;export{s as t};
+`,classes:{root:`p-progressspinner`,spin:`p-progressspinner-spin`,circle:`p-progressspinner-circle`}}),s={name:`ProgressSpinner`,extends:{name:`BaseProgressSpinner`,extends:i,props:{strokeWidth:{type:String,default:`2`},fill:{type:String,default:`none`},animationDuration:{type:String,default:`2s`}},style:o,provide:function(){return{$pcProgressSpinner:this,$parentInstance:this}}},inheritAttrs:!1,computed:{svgStyle:function(){return{"animation-duration":this.animationDuration}}}},c=[`fill`,`stroke-width`];function l(n,i,o,s,l,u){return t(),a(`div`,e({class:n.cx(`root`),role:`progressbar`},n.ptmi(`root`)),[(t(),a(`svg`,e({class:n.cx(`spin`),viewBox:`25 25 50 50`,style:u.svgStyle},n.ptm(`spin`)),[r(`circle`,e({class:n.cx(`circle`),cx:`50`,cy:`50`,r:`20`,fill:n.fill,"stroke-width":n.strokeWidth,strokeMiterlimit:`10`},n.ptm(`circle`)),null,16,c)],16))],16)}s.render=l;export{s as t};
