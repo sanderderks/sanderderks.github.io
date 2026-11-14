@@ -1,1 +1,0 @@
-.animate-timer-up{position:relative;animation:animateup 1s infinite}.animate-timer-down{position:relative;animation:animatedown 1s infinite}@keyframes animateup{0%{bottom:-50px;opacity:0}to{bottom:0;opacity:1}}@keyframes animatedown{0%{top:-50px;opacity:0}to{top:0;opacity:1}}
