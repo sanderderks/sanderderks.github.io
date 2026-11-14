@@ -1,4 +1,4 @@
-import{Mr as e,Rr as t,S as n,Vr as r,x as i,xr as a}from"../bundle.js";var o={name:`ButtonGroup`,extends:{name:`BaseButtonGroup`,extends:i,style:n.extend({name:`buttongroup`,style:`
+import{Fr as e,Rr as t,Tr as n,Wr as r,l as i,qr as a,s as o}from"./c-ripple.js";var s=i.extend({name:`buttongroup`,style:`
     .p-buttongroup {
         display: inline-flex;
     }
@@ -30,4 +30,4 @@ import{Mr as e,Rr as t,S as n,Vr as r,x as i,xr as a}from"../bundle.js";var o={n
         position: relative;
         z-index: 1;
     }
-`,classes:{root:`p-buttongroup p-component`}}),provide:function(){return{$pcButtonGroup:this,$parentInstance:this}}},inheritAttrs:!1};function s(n,i,o,s,c,l){return t(),a(`span`,e({class:n.cx(`root`),role:`group`},n.ptmi(`root`)),[r(n.$slots,`default`)],16)}o.render=s;export{o as t};
+`,classes:{root:`p-buttongroup p-component`}});e();var c={name:`ButtonGroup`,extends:{name:`BaseButtonGroup`,extends:o,style:s,provide:function(){return{$pcButtonGroup:this,$parentInstance:this}}},inheritAttrs:!1};function l(e,i,o,s,c,l){return r(),n(`span`,t({class:e.cx(`root`),role:`group`},e.ptmi(`root`)),[a(e.$slots,`default`)],16)}c.render=l;export{c as t};
